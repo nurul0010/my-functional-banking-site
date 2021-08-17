@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- tailwind css cdn link  -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>banking page</title>
+</head>
+
+<body class="bg-blue-100">
+    <header>
+        <h1 class="text-6xl text-center my-8">YOU ARE WELCOME TO - <span class="font-semibold text-blue-400">ISLAMIC
+                BANK!</span>
+        </h1>
+    </header>
+
+    <main class="w-3/4 mx-auto">
+        <!-- amount section  -->
+        <section>
+
+            <div class="grid grid-cols-3 gap-4 ">
+                <div class=" bg-green-300
+                 w-3/4 py-2 rounded mx-auto">
+                    <p class="text-4xl font-semibold mb-2 text-center">Deposit</p>
+                    <p class="text-2xl text-center">$ <span id="deposit-current">00</span></p>
+                </div>
+                <div class=" bg-blue-300
+                 w-3/4 py-2 rounded mx-auto">
+                    <p class="text-4xl font-semibold mb-2 text-center">Withdraw</p>
+                    <p class="text-2xl text-center">$ <span id="withdraw-current">00</span></p>
+                </div>
+                <div class=" bg-yellow-300
+                  w-3/4 py-2 rounded mx-auto">
+                    <p class="text-4xl font-semibold mb-2 text-center">Balance</p>
+                    <p class="text-2xl text-center">$ <span id="balance-total">1234</span></p>
+                </div>
+            </div>
+
+        </section>
+        <section class="mt-8">
+            <!-- add ammount section  -->
+            <div class="grid grid-cols-2 gap-4">
+                <div class="bg-purple-100 py-2 rounded">
+                    <p class="text-2xl text-center mb-4">DEPOSIT HARE</p>
+
+                    <input id="deposit-ammount"
+                        class="block w-3/4 mx-20 mb-6 mx-2 px-4 py-2 rounded border border-gray-500" type="text"
+                        placeholder="$ ammount you want to deposit">
+
+                    <button id="deposit-btn" type="button"
+                        class="bg-green-500 px-2 py-2 rounded mx-20 font-semibold text-white">Deposit</button>
+                </div>
+                <div class="bg-red-100 py-2 rounded">
+                    <p class="text-2xl text-center mb-4">WITHDRAW HARE</p>
+
+                    <input id="withdraw-ammount"
+                        class="block w-3/4 mx-20 mb-6 mx-2 px-4 py-2 rounded border border-gray-500" type="text"
+                        placeholder="$ ammount you want to withdraw">
+
+                    <button id="withdraw-btn" type="button"
+                        class="bg-red-500 px-2 py-2 rounded mx-20 font-semibold text-white">Withdraw</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- <script src="js/banking.js"></script> -->
+    <script src="js/banking.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 145, 36);
+}
+#heading-line{
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(223, 214, 178);
+}
+#bank-name{
+    color: rgb(236, 231, 210);
+}
+#login-title{
+    font-size: 2rem;
+}
+#login-section{
+    background-color: cornsilk;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+}
+.input{
+    display: block;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 75%;
+    margin:10px auto;
+}
+#submit-btn{
+    background-color: rgba(0, 0, 139, 0.815);
+    padding: 5px 10px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#warning{
+    color: red;
+}
